@@ -1,9 +1,5 @@
 package Figuras; 
-/**
- * Esta clase denominada Cilindro es una subclase de FiguraGeométrica 
- * que cuenta con un radio y una altura. 
-* @version 1.2/2020 
-*/
+
  public class Cilindro extends FiguraGeometrica {
  private double radio; // Atributo que establece el radio de un cilindro
  private double altura; // Atributo que establece la altura de un cilindro 
