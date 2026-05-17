@@ -4,7 +4,7 @@ package Figuras;
   * calculados de acuerdo al tipo de figura geométrica.  
   * @version 1.2/2020 
   */
-   public class FiguraGeométrica {
+   public class FiguraGeometrica {
      private double volumen; /* Atributo que identifica el volumen de
       una figura geométrica */
     private double superficie; /* Atributo que identifica la superficie de

@@ -21,7 +21,7 @@ private JButton cilindro, esfera, pirámide;
 */ 
 public VentanaPrincipal(){ 
 inicio(); 
-setTitle(“Figuras”); // Establece el título de la ventana 
+setTitle("Figuras"); // Establece el título de la ventana 
 setSize(350,160); // Establece el tamaño de la ventana
 setLocationRelativeTo(null); /* La ventana se posiciona en el 
 centro de la pantalla */ 
@@ -39,7 +39,7 @@ contenedor.setLayout(null); /* Establece que el contenedor no
 tiene un layout */ 
 // Establece el botón del cilindro 
 cilindro = new JButton(); 
-cilindro.setText(“Cilindro”); 
+cilindro.setText("Cilindro"); 
 cilindro.setBounds(20, 50, 80, 23); /* Establece la posición del 
 botón del cilindro */
 /* Agrega al botón un ActionListener para que gestione eventos 
@@ -47,7 +47,7 @@ del botón */
 cilindro.addActionListener(this); 
 // Establece el botón de la esfera 
 esfera = new JButton(); 
-esfera.setText(“Esfera”); 
+esfera.setText("Esfera"); 
 esfera.setBounds(125, 50, 80, 23); /* Establece la posición del 
 botón de la esfera */ 
 /* Agrega al botón un ActionListener para que gestione eventos 
@@ -55,7 +55,7 @@ del botón */
 esfera.addActionListener(this); 
 // Establece el botón de la pirámide 
 pirámide = new JButton(); 
-pirámide.setText(“Pirámide”); 
+pirámide.setText("Pirámide"); 
 pirámide.setBounds(225, 50, 100, 23); /* Establece la posición 
 del botón de la pirámide */ 
 /* Agrega al botón un ActionListener para que gestione eventos 
@@ -91,4 +91,8 @@ pirámide.setVisible(true); /* Establece que se visualice la
 ventana de la pirámide */ 
 } 
 } 
+public static void main(String[] args) {
+    VentanaPrincipal ventana = new VentanaPrincipal();
+    ventana.setVisible(true);
+}
 }

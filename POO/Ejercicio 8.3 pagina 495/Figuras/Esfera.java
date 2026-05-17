@@ -4,7 +4,7 @@ package Figuras;
 * que cuenta con un radio.  
 * @version 1.2/2020 
 */
-public class Esfera extends FiguraGeométrica {
+public class Esfera extends FiguraGeometrica {
 private double radio; // Atributo que identifica el radio de una esfera 
 /** 
 * Constructor de la clase Esfera 
